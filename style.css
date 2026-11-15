@@ -183,7 +183,9 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
   text-transform: uppercase;
   color: var(--accent);
 }
-.card-links { font-weight: 600; }
+.card-links { font-weight: 600; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+.card-links a { color: var(--accent-strong); text-decoration: none; }
+.card-links a:hover { text-decoration: underline; }
 .soon { color: var(--muted); font-style: italic; font-weight: 400; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; }
